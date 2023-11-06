@@ -232,7 +232,8 @@ def make_transform(
     def center_crop(width, height, img):
         crop = np.min(img.shape[:2])
         img = img[(img.shape[0] - crop) // 2 : (img.shape[0] + crop) // 2, (img.shape[1] - crop) // 2 : (img.shape[1] + crop) // 2]
-        img = PIL.Image.fromarray(img, 'RGB')
+        #img = PIL.Image.fromarray(img, 'RGB')
+        img = PIL.Image.fromarray(img, 'L')
         img = img.resize((width, height), PIL.Image.LANCZOS)
         return np.array(img)
 
