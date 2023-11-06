@@ -1,0 +1,28 @@
+1. Porównaj występujące różnice pomiędzy:
+	- StyleGan2-Ada
+	- StyleGan2-Ada Knee grey scale
+	- StyleGan3 
+
+
+
+StyleGan2-Ada Knee grey scale VS StyleGan2-Ada
+    1. Dataset_tool.py
+	linia 220 - img = PIL.Image.fromarray(img, 'L')
+
+    2. train.py
+	To samo praktycznie
+
+    3. Gray.py
+	linia 100 img = PIL.Image.fromarray(img[0].cpu().numpy()).save(f'{outdir}/proj{idx:02d}.png')
+	linia 129 PIL.Image.fromarray(i.cpu().numpy()).save(f'{outdir}/seed{seed:04d}.png')
+
+StyleGan3 
+    1. Dataset_tool.py
+	linia 235 - RGB zmień na L
+    
+    2. train.py 
+
+
+2. Wprowadz zmiany w kodzie dla StyleGan3
+
+3. Przetestuj na MNIST
