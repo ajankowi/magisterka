@@ -16,6 +16,15 @@ StyleGan2-Ada Knee grey scale VS StyleGan2-Ada
 	linia 100 img = PIL.Image.fromarray(img[0].cpu().numpy()).save(f'{outdir}/proj{idx:02d}.png')
 	linia 129 PIL.Image.fromarray(i.cpu().numpy()).save(f'{outdir}/seed{seed:04d}.png')
 
+    4. Generate.py
+	linia 100 img = PIL.Image.fromarray(img[0].cpu().numpy()).save(f'{outdir}/proj{idx:02d}.png')
+	linia 129 PIL.Image.fromarray(i.cpu().numpy()).save(f'{outdir}/seed{seed:04d}.png')
+
+    5. Gen_images.py
+        linia 137 - usunięto RGB
+	from torchvision.utils import save_image
+        img=img.view(16,16)
+
 StyleGan3 
     1. Dataset_tool.py
 	linia 235 - RGB zmień na L
