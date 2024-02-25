@@ -1,30 +1,4 @@
 
-	      To do
-
-1. Znajdz ile zjecic jest w CelebA
-
-	C-MS-Celeb
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 		DONE
