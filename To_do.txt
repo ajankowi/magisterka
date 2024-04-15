@@ -1,3 +1,6 @@
+3.10 - python
+tensorflow 2.10
+
 
 
 
