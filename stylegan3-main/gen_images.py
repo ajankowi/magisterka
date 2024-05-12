@@ -136,7 +136,7 @@ def generate_images(
         img = (img.permute(0, 2, 3, 1) * 127.5 + 128).clamp(0, 255).to(torch.uint8)
         
         from torchvision.utils import save_image
-        i=img.view(16,16)
+        i=img.view(64,64)
         print(i.size())
         #PIL.Image.fromarray(img[0].cpu().numpy(), 'RGB').save(f'{outdir}/seed{seed:04d}.png')
         PIL.Image.fromarray(i.cpu().numpy()).save(f'{outdir}/seed{seed:04d}.png')
