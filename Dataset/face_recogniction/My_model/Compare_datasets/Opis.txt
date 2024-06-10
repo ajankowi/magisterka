@@ -1,0 +1,3 @@
+Model_przeplatane_wiersze_1.h5 - takie sobie loss: 0.1724 - accuracy: 0.8028
+
+Model_przeplatane_wiersze_2.h5 - lepsze aleee loss: 0.1474 - accuracy: 0.8210

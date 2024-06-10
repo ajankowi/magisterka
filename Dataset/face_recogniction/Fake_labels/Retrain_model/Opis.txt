@@ -1,0 +1,3 @@
+Model_przeplatane_wiersze_retrain_szum_1.h5 - takie sobie loss: 0.1426 - accuracy: 0.8024
+
+Model_przeplatane_wiersze_retrain_szum_2.h5 - lepiej, alee loss: 0.1385 - accuracy: 0.8278

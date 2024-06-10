@@ -1,0 +1,10 @@
+Model_przeplatane_wiersze_1.h5 - Bardzo dobre wyniki - loss: 0.0807 - accuracy: 0.8968
+
+
+Zamiana model.add(layers.Dense(1, activation='sequential'))
+Na 	model.add(layers.Dense(1, activation='relu'))
+
+Model_przeplatane_wiersze_2.h5 - Bardzo dobre wyniki - loss: 0.0756 - accuracy: 0.8980
+
+
+Model_przeplatane_wiersze_szum_3.h5 - Bardzo dobre - - loss: 0.0681 - accuracy: 0.9119

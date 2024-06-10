@@ -1,0 +1,3 @@
+Model_przeplatane_wiersze_1.h5 - jest nadzieja loss: 0.1018 - accuracy: 0.8706
+
+Model_przeplatane_wiersze_2.h5 - jest gorzej  loss: 0.1197 - accuracy: 0.8341

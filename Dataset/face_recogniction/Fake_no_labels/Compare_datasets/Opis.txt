@@ -1,0 +1,7 @@
+Model_przeplatane_wiersze_1.h5 - nawet ok - loss: 0.1135 - accuracy: 0.8548
+
+Model_przeplatane_wiersze_2.h5 - takie sobie loss: 0.1354 - accuracy: 0.8317
+
+Model_przeplatane_wiersze_szum_3.h5  średnio - loss: 0.1409 - accuracy: 0.8089
+
+Model_przeplatane_wiersze_szum_4.h5 calkiem dobrze - loss: 0.0873 - accuracy: 0.8877
